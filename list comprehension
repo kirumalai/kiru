@@ -1,0 +1,5 @@
+jarvis=['kiru','nandhini','maha']
+def convert(x):
+     return x.upper()
+result=[convert(x) for x in jarvis]
+print(result)
