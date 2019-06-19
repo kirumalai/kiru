@@ -1,0 +1,4 @@
+f=open("E:\kiru\samplefile.txt","w++")
+f.write("123")
+print(f.read())
+f.write(str(f.read))
