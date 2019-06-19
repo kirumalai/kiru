@@ -1,0 +1,11 @@
+string='guvi'
+def exploder(string,n):
+        #for item in string:
+		    print(string*n)
+
+def myfun(string,explode,n):
+        for item in string:
+            myfun(string,exploder,5)
+
+            
+exploder(string,5)
